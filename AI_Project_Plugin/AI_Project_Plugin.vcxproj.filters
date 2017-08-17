@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="PluginEntry.cpp" />
+    <ClCompile Include="Behaviours\CombinedSB_Pipeline.cpp">
+      <Filter>classes\SteeringPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviours\CombinedSB_PipelineImp.cpp">
+      <Filter>classes\SteeringPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviours\SteeringBehaviours.cpp">
+      <Filter>classes\SteeringPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviours\CombinedSB.cpp">
+      <Filter>classes\SteeringPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="ExamPlugin.cpp">
+      <Filter>classes\general</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBoxPlugin.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\_Includes\IBehaviourPlugin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Behaviours\Behaviors.h">
+      <Filter>classes\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviours\Blackboard.h">
+      <Filter>classes\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviours\CombinedSB_Pipeline.h">
+      <Filter>classes\SteeringPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviours\CombinedSB_PipelineImp.h">
+      <Filter>classes\SteeringPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviours\SteeringBehaviours.h">
+      <Filter>classes\SteeringPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviours\CombinedSB.h">
+      <Filter>classes\SteeringPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="ExamPlugin.h">
+      <Filter>classes\general</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>classes\general</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBoxPlugin.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility_Action.h">
+      <Filter>classes\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Curves.h">
+      <Filter>classes\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility_Consideration.h">
+      <Filter>classes\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility_Selector.h">
+      <Filter>classes\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility_Builder.h">
+      <Filter>classes\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="classes">
+      <UniqueIdentifier>{b76f9b6f-69b2-48ac-b4b6-4f277691f3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\SteeringPipeline">
+      <UniqueIdentifier>{f3978a33-118f-4970-a62c-dbd5a1645d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\Utility">
+      <UniqueIdentifier>{4014f7b9-83cf-4ce5-8c02-7ad2b85c60bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\general">
+      <UniqueIdentifier>{62a95a7c-1891-4604-a5a5-431a92b4e865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\behavior">
+      <UniqueIdentifier>{e9c67486-7734-4fb0-9f40-509bb208aac9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AI_Project_Plugin.rc" />
+  </ItemGroup>
+</Project>
